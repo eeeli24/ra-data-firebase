@@ -1,0 +1,33 @@
+{
+  "name": "ra-data-firebase",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "watch": "babel src -d lib --watch",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "*.md",
+    "lib",
+    "src"
+  ],
+  "keywords": [
+    "react-admin",
+    "react",
+    "firebase",
+    "rest"
+  ],
+  "dependencies": {
+    "react-admin": "^2.4.1",
+    "firebase": "5",
+    "react": "16",
+    "react-dom": "16",
+    "sort-by": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
+  }
+}
